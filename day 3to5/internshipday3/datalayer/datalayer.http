@@ -1,0 +1,6 @@
+@datalayer_HostAddress = http://localhost:5018
+
+GET {{datalayer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

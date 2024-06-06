@@ -1,0 +1,296 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\prern\\training\\ShoppingWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\model\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\model\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\controllers\\shoppingapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\controllers\\shoppingapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\shoppingwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\shoppingwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\model\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\model\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\model\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\model\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\migrations\\20240524092048_updatereference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\migrations\\20240524092048_updatereference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\model\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\model\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\shoppingwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\shoppingwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\model\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\model\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\migrations\\20240524091720_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\migrations\\20240524091720_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\efcore\\ef_datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\efcore\\ef_datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\efcore\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\efcore\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|c:\\users\\prern\\training\\shoppingwebapi\\shoppingwebapi\\efcore\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773FCE7A-EBD6-40EC-BC9E-AAE89B5E7625}|ShoppingWebApi\\ShoppingWebApi.csproj|solutionrelative:shoppingwebapi\\efcore\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShoppingApiController.cs",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Controllers\\ShoppingApiController.cs",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\Controllers\\ShoppingApiController.cs",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Controllers\\ShoppingApiController.cs",
+              "RelativeToolTip": "ShoppingWebApi\\Controllers\\ShoppingApiController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwv2YAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:28:35.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "ShoppingWebApi\\Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:25:50.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Model\\OrderModel.cs",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\Model\\OrderModel.cs",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Model\\OrderModel.cs",
+              "RelativeToolTip": "ShoppingWebApi\\Model\\OrderModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:24:10.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Model\\ProductModel.cs",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\Model\\ProductModel.cs",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Model\\ProductModel.cs",
+              "RelativeToolTip": "ShoppingWebApi\\Model\\ProductModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:23:52.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240524092048_UpdateReference.cs",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Migrations\\20240524092048_UpdateReference.cs",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\Migrations\\20240524092048_UpdateReference.cs",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Migrations\\20240524092048_UpdateReference.cs",
+              "RelativeToolTip": "ShoppingWebApi\\Migrations\\20240524092048_UpdateReference.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:20:48.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Program.cs",
+              "RelativeToolTip": "ShoppingWebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:12:21.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ShoppingWebApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-24T09:52:09.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbHelper.cs",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Model\\DbHelper.cs",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\Model\\DbHelper.cs",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Model\\DbHelper.cs",
+              "RelativeToolTip": "ShoppingWebApi\\Model\\DbHelper.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:26:48.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\appsettings.json",
+              "RelativeToolTip": "ShoppingWebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-24T07:58:25.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShoppingWebApi.http",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\ShoppingWebApi.http",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\ShoppingWebApi.http",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\ShoppingWebApi.http",
+              "RelativeToolTip": "ShoppingWebApi\\ShoppingWebApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-24T10:00:07.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Model\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\Model\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Model\\ApiResponse.cs",
+              "RelativeToolTip": "ShoppingWebApi\\Model\\ApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:30:00.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ShoppingWebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\ShoppingWebApi.csproj",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\ShoppingWebApi.csproj",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\ShoppingWebApi.csproj",
+              "RelativeToolTip": "ShoppingWebApi\\ShoppingWebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-24T09:42:09.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResponseHandler.cs",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Model\\ResponseHandler.cs",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\Model\\ResponseHandler.cs",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Model\\ResponseHandler.cs",
+              "RelativeToolTip": "ShoppingWebApi\\Model\\ResponseHandler.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAuwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:30:18.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240524091720_Intial.cs",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Migrations\\20240524091720_Intial.cs",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\Migrations\\20240524091720_Intial.cs",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\Migrations\\20240524091720_Intial.cs",
+              "RelativeToolTip": "ShoppingWebApi\\Migrations\\20240524091720_Intial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:17:21.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EF_DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\EFcore\\EF_DataContext.cs",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\EFcore\\EF_DataContext.cs",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\EFcore\\EF_DataContext.cs",
+              "RelativeToolTip": "ShoppingWebApi\\EFcore\\EF_DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:01:19.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\EFcore\\Product.cs",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\EFcore\\Product.cs",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\EFcore\\Product.cs",
+              "RelativeToolTip": "ShoppingWebApi\\EFcore\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:00:42.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\EFcore\\Order.cs",
+              "RelativeDocumentMoniker": "ShoppingWebApi\\EFcore\\Order.cs",
+              "ToolTip": "C:\\Users\\prern\\training\\ShoppingWebApi\\ShoppingWebApi\\EFcore\\Order.cs",
+              "RelativeToolTip": "ShoppingWebApi\\EFcore\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:00:17.278Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

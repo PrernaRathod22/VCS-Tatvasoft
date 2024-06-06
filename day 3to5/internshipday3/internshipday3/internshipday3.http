@@ -1,0 +1,6 @@
+@internshipday3_HostAddress = http://localhost:5022
+
+GET {{internshipday3_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

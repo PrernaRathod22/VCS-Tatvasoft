@@ -1,0 +1,65 @@
+I:\Sample App\ShoppingWebApi\bin\Debug\net6.0\appsettings.Development.json
+I:\Sample App\ShoppingWebApi\bin\Debug\net6.0\appsettings.json
+I:\Sample App\ShoppingWebApi\bin\Debug\net6.0\ShoppingWebApi.exe
+I:\Sample App\ShoppingWebApi\bin\Debug\net6.0\ShoppingWebApi.deps.json
+I:\Sample App\ShoppingWebApi\bin\Debug\net6.0\ShoppingWebApi.runtimeconfig.json
+I:\Sample App\ShoppingWebApi\bin\Debug\net6.0\ShoppingWebApi.dll
+I:\Sample App\ShoppingWebApi\bin\Debug\net6.0\ShoppingWebApi.pdb
+I:\Sample App\ShoppingWebApi\bin\Debug\net6.0\Humanizer.dll
+I:\Sample App\ShoppingWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+I:\Sample App\ShoppingWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+I:\Sample App\ShoppingWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+I:\Sample App\ShoppingWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+I:\Sample App\ShoppingWebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+I:\Sample App\ShoppingWebApi\bin\Debug\net6.0\Npgsql.dll
+I:\Sample App\ShoppingWebApi\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+I:\Sample App\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.csproj.AssemblyReference.cache
+I:\Sample App\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.GeneratedMSBuildEditorConfig.editorconfig
+I:\Sample App\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.AssemblyInfoInputs.cache
+I:\Sample App\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.AssemblyInfo.cs
+I:\Sample App\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.csproj.CoreCompileInputs.cache
+I:\Sample App\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.MvcApplicationPartsAssemblyInfo.cache
+I:\Sample App\ShoppingWebApi\obj\Debug\net6.0\staticwebassets.build.json
+I:\Sample App\ShoppingWebApi\obj\Debug\net6.0\staticwebassets.development.json
+I:\Sample App\ShoppingWebApi\obj\Debug\net6.0\scopedcss\bundle\ShoppingWebApi.styles.css
+I:\Sample App\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.csproj.CopyComplete
+I:\Sample App\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.dll
+I:\Sample App\ShoppingWebApi\obj\Debug\net6.0\refint\ShoppingWebApi.dll
+I:\Sample App\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.pdb
+I:\Sample App\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.genruntimeconfig.cache
+I:\Sample App\ShoppingWebApi\obj\Debug\net6.0\ref\ShoppingWebApi.dll
+C:\Users\prern\training\restapi-main\ShoppingWebApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\prern\training\restapi-main\ShoppingWebApi\bin\Debug\net6.0\appsettings.json
+C:\Users\prern\training\restapi-main\ShoppingWebApi\bin\Debug\net6.0\ShoppingWebApi.exe
+C:\Users\prern\training\restapi-main\ShoppingWebApi\bin\Debug\net6.0\ShoppingWebApi.deps.json
+C:\Users\prern\training\restapi-main\ShoppingWebApi\bin\Debug\net6.0\ShoppingWebApi.runtimeconfig.json
+C:\Users\prern\training\restapi-main\ShoppingWebApi\bin\Debug\net6.0\ShoppingWebApi.dll
+C:\Users\prern\training\restapi-main\ShoppingWebApi\bin\Debug\net6.0\ShoppingWebApi.pdb
+C:\Users\prern\training\restapi-main\ShoppingWebApi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\prern\training\restapi-main\ShoppingWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\prern\training\restapi-main\ShoppingWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\prern\training\restapi-main\ShoppingWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\prern\training\restapi-main\ShoppingWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\prern\training\restapi-main\ShoppingWebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\prern\training\restapi-main\ShoppingWebApi\bin\Debug\net6.0\Npgsql.dll
+C:\Users\prern\training\restapi-main\ShoppingWebApi\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.csproj.AssemblyReference.cache
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.AssemblyInfoInputs.cache
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.AssemblyInfo.cs
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.csproj.CoreCompileInputs.cache
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\staticwebassets\msbuild.ShoppingWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\staticwebassets\msbuild.build.ShoppingWebApi.props
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ShoppingWebApi.props
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ShoppingWebApi.props
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\scopedcss\bundle\ShoppingWebApi.styles.css
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\Shopping.FC0C5ADE.Up2Date
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.dll
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\refint\ShoppingWebApi.dll
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.pdb
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\ShoppingWebApi.genruntimeconfig.cache
+C:\Users\prern\training\restapi-main\ShoppingWebApi\obj\Debug\net6.0\ref\ShoppingWebApi.dll

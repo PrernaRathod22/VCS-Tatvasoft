@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\prern\\training\\Day3-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|c:\\users\\prern\\training\\day3-main\\bookproject\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|solutionrelative:bookproject\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|c:\\users\\prern\\training\\day3-main\\bookproject\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|solutionrelative:bookproject\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|c:\\users\\prern\\training\\day3-main\\bookproject\\bookproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|solutionrelative:bookproject\\bookproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\Day3-main\\BookProject\\Service\\BookService.cs",
+              "RelativeDocumentMoniker": "BookProject\\Service\\BookService.cs",
+              "ToolTip": "C:\\Users\\prern\\training\\Day3-main\\BookProject\\Service\\BookService.cs",
+              "RelativeToolTip": "BookProject\\Service\\BookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T09:34:27.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\Day3-main\\BookProject\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "BookProject\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\prern\\training\\Day3-main\\BookProject\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "BookProject\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T08:39:11.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookProject.csproj",
+              "DocumentMoniker": "C:\\Users\\prern\\training\\Day3-main\\BookProject\\BookProject.csproj",
+              "RelativeDocumentMoniker": "BookProject\\BookProject.csproj",
+              "ToolTip": "C:\\Users\\prern\\training\\Day3-main\\BookProject\\BookProject.csproj",
+              "RelativeToolTip": "BookProject\\BookProject.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T06:31:30.928Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

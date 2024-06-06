@@ -1,0 +1,91 @@
+CREATE TABLE Country (
+   id serial PRIMARY KEY,
+   CountryName character varying(100) NOT NULL);
+
+
+CREATE TABLE City (
+   id serial PRIMARY KEY,
+	CountryId INTEGER NOT NULL REFERENCES Country(Id),
+   CityName character varying(100) NOT NULL);
+
+CREATE TABLE MissionApplication (
+   id serial PRIMARY KEY,
+	MissionId INTEGER NOT NULL,
+	UserId INTEGER NOT NULL,
+	AppliedDate TIMESTAMP  NOT NULL,
+	Status BOOLEAN  NOT NULL,
+	Sheet INTEGER  NOT NULL
+  );
+
+CREATE TABLE Missions (
+    Id SERIAL PRIMARY KEY,
+    MissionTitle CHARACTER VARYING(100) NOT NULL,
+    MissionDescription  CHARACTER VARYING(100) NOT NULL,
+    MissionOrganisationName CHARACTER VARYING(100) NOT NULL,
+    MissionOrganisationDetail  CHARACTER VARYING(100) NOT NULL,
+    CountryId INTEGER NOT NULL REFERENCES Country(Id),
+    CityId INTEGER NOT NULL REFERENCES City(Id),
+    StartDate DATE NOT NULL,
+    EndDate DATE NOT NULL,
+    MissionType CHARACTER VARYING(100) NOT NULL,
+    TotalSheets INTEGER,
+    RegistrationDeadLine DATE NOT NULL,
+    MissionThemeId CHARACTER VARYING(100),
+    MissionSkillId CHARACTER VARYING(100),
+    MissionImages TEXT,
+    MissionDocuments TEXT,
+    MissionAvilability CHARACTER VARYING(100),
+    MissionVideoUrl CHARACTER VARYING(100)
+);
+
+CREATE TABLE MissionSkill (
+    Id SERIAL PRIMARY KEY,
+    SkillName CHARACTER VARYING(100) NOT NULL,
+    Status CHARACTER VARYING(100) NOT NULL
+);
+
+CREATE TABLE MissionTheme (
+    Id SERIAL PRIMARY KEY,
+    ThemeName CHARACTER VARYING(100) NOT NULL,
+    Status CHARACTER VARYING(100) NOT NULL
+);
+
+
+CREATE TABLE Users (
+    Id SERIAL PRIMARY KEY,
+    FirstName CHARACTER VARYING(100) NOT NULL,
+    LastName CHARACTER VARYING(100) NOT NULL,
+    PhoneNumber CHARACTER VARYING(10) NOT NULL,
+    EmailAddress CHARACTER VARYING(100) NOT NULL UNIQUE,
+    UserType CHARACTER VARYING(50) NOT NULL,
+    Password CHARACTER VARYING(100) NOT NULL
+);
+
+
+CREATE TABLE UserDetail (
+    Id SERIAL PRIMARY KEY,
+    UserId INTEGER NOT NULL REFERENCES Users(Id),
+    Name CHARACTER VARYING(100) NOT NULL,
+    Surname CHARACTER VARYING(100) NOT NULL,
+    EmployeeId CHARACTER VARYING(50),
+    Manager CHARACTER VARYING(100),
+    Title CHARACTER VARYING(100),
+    Department CHARACTER VARYING(100),
+    MyProfile TEXT,
+    WhyIVolunteer TEXT,
+    CountryId INTEGER REFERENCES Country(Id),
+    CityId INTEGER REFERENCES City(Id),
+    Avilability CHARACTER VARYING(100),
+    LinkdInUrl CHARACTER VARYING(100),
+    MySkills TEXT,
+    UserImage CHARACTER VARYING(100),
+    Status BOOLEAN NOT NULL
+);
+
+
+CREATE TABLE UserSkills (
+    Id SERIAL PRIMARY KEY,
+    Skill CHARACTER VARYING(100) NOT NULL,
+    UserId INTEGER NOT NULL REFERENCES Users(Id)
+);
+
