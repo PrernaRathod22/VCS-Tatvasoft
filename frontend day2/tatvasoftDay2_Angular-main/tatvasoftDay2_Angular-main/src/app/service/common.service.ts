@@ -8,8 +8,8 @@ import { BehaviorSubject } from 'rxjs';
 export class CommonService {
 
   constructor(private http:HttpClient) { }
-  apiUrl:string='http://localhost:7022/api';
-  imageUrl:string='http://localhost:7022';
+  apiUrl:string='https://localhost:7022/api';
+  imageUrl:string='https://localhost:7022';
   searchList : BehaviorSubject<any> = new BehaviorSubject<any>('');
 
   GetMissionCountryList(){

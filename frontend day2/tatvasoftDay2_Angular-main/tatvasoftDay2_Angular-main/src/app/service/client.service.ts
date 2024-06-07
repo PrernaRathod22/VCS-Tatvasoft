@@ -27,6 +27,8 @@ export class ClientService {
   }
   ApplyMission(data:any){debugger;
      return this.http.post(`${this.apiUrl}/ClientMission/ApplyMission`,data);
+    //  return this.http.post(`http://localhost:5140/api/ClientMission/ApplyMission`,data);
+
   }
 
   //ShareYourStory
@@ -39,7 +41,7 @@ export class ClientService {
   }
 
   LoginUserDetailById(id:any):Observable<user[]>{
-    return this.http.get<user[]>(`${this.apiUrl}/Login/LoginUserDetailById/${id}`);
+    return this.http.get<user[]>(`${this.apiUrl}/Login/GetUserById/${id}`);
   }
   CountryList():Observable<Country[]>{
     return this.http.get<Country[]>(`${this.apiUrl}/Common/CountryList`);
@@ -52,7 +54,7 @@ export class ClientService {
     return this.http.post(`${this.apiUrl}/Common/AddUserSkill`,data);
   }
   GetUserSkill(userId:any):Observable<any[]>{
-    return this.http.get<any[]>(`${this.apiUrl}/Common/GetUserSkill/${userId}`);
+    return this.http.get<any[]>(`${this.apiUrl}/MissionSkill/GetMissionSkillById/${userId}`);
   }
 
   LoginUserProfileUpdate(userDetail:UserDetail){

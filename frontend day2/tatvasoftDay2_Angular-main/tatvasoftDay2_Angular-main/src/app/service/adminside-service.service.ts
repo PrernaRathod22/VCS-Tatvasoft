@@ -94,11 +94,11 @@ export class AdminsideServiceService {
   }
 
   MissionApplicationDelete(data: MissionApplication){
-    return this.http.post(`${this.apiUrl}/Mission/MissionApplicationDelete`, data);
+    return this.http.delete(`${this.apiUrl}/Mission/MissionApplicationDelete/${data.id}`);
   }
 
   MissionApplicationApprove(data: MissionApplication){
-    return this.http.post(`${this.apiUrl}/Mission/MissionApplicationApprove`, data);
+    return this.http.post(`${this.apiUrl}/Mission/MissionApplicationApprove/${data.id}`, data.id);
   }
 
   //Mission Theme

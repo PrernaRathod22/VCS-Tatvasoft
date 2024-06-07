@@ -201,6 +201,113 @@ namespace Data_Access_Layer
             }
 
         }
-    }
+        public string LoginUserProfileUpdate(UserDetail userDetail)
+        {
+            string result = "";
+            try
+            {
+                var existingUserDetail = _cIDbContext.UserDetail.FirstOrDefault(u => u.Id == userDetail.Id && !u.IsDeleted);
+                if (existingUserDetail != null)
+                {
+                    existingUserDetail.Name = userDetail.Name;
+                    existingUserDetail.Surname = userDetail.Surname;
+                    existingUserDetail.EmployeeId = userDetail.EmployeeId;
+                    existingUserDetail.Manager = userDetail.Manager;
+                    existingUserDetail.Title = userDetail.Title;
+                    existingUserDetail.Department = userDetail.Department;
+                    existingUserDetail.MyProfile = userDetail.MyProfile;
+                    existingUserDetail.WhyIVolunteer = userDetail.WhyIVolunteer;
+                    existingUserDetail.CountryId = userDetail.CountryId;
+                    existingUserDetail.CityId = userDetail.CityId;
+                    existingUserDetail.Avilability = userDetail.Avilability;
+                    existingUserDetail.LinkdInUrl = userDetail.LinkdInUrl;
+                    existingUserDetail.MySkills = userDetail.MySkills;
+                    existingUserDetail.UserImage = userDetail.UserImage;
+                    existingUserDetail.Status = userDetail.Status;
+                    existingUserDetail.ModifiedDate = DateTime.UtcNow;
+                    existingUserDetail.FirstName = userDetail.Name;
+                    existingUserDetail.LastName = userDetail.Surname;
+                    _cIDbContext.SaveChanges();
+                    result = "Account Update Successfully.";
+                }
+                else
+                {
+                    result = "Account Detail is not found.";
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            return result;
+        }
+        public async Task<UserDetail> GetUserProfileDetailByIdAsync(int id)
+        {
+            try
+            {
+                UserDetail user = await _cIDbContext.UserDetail.FirstAsync(x => x.Id == id && !x.IsDeleted);
+                if (user == null)
+                {
+                    throw new Exception("User not found");
+                }
+                return user;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"{ex.Message}");
+            }
+        }
+        public async Task<UserDetail> GetUserProfileDetailById(int userId)
+        {
+            try
+            {
+                UserDetail userDetail = await _cIDbContext.UserDetail.FirstAsync(x => x.UserId == userId && !x.IsDeleted);
+                if (userDetail == null)
+                {
+                    throw new Exception("User not found");
+                }
+                return userDetail;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"{ex.Message}");
+            }
+        }
 
+        public async Task<string> ChangePassword(ChangePassModel changePass)
+        {
+            string result = "";
+            try
+            {
+                var existingUser = await _cIDbContext.User.FirstOrDefaultAsync(u => !u.IsDeleted && u.Id == changePass.UserId);
+                if (existingUser != null)
+                {
+                    if (changePass.NewPassword != changePass.ConfirmPassword)
+                    {
+                        throw new Exception("password and confirm password not match");
+                    }
+                    else if (existingUser.Password == changePass.OldPassword)
+                    {
+                        existingUser.Password = changePass.NewPassword;
+                        await _cIDbContext.SaveChangesAsync();
+                        result = "Password changed successfully!";
+                    }
+                    else
+                    {
+                        throw new Exception("incorrect password!");
+                    }
+                }
+                else
+                {
+                    throw new Exception("User not found");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return result;
+        }
+    }
 }
+

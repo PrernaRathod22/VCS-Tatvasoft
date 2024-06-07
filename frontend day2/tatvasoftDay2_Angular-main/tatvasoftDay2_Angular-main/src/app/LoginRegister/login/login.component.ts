@@ -33,50 +33,47 @@ export class LoginComponent implements OnInit {
     return this.loginForm.get('password') as FormControl;
   }
   OnSubmit(){
-
-        this.formValid = true;
-        if(this.loginForm.valid)
-        {
-          this.service.loginUser([
-            this.loginForm.value.emailAddress,
-            this.loginForm.value.password
-          ]).subscribe((res:any)=>{
-            //console.log(res);
-            if(res.result == 1)
+      this.formValid = true;
+      if(this.loginForm.valid)
+      {
+        this.service.loginUser([
+          this.loginForm.value.emailAddress,
+          this.loginForm.value.password
+        ]).subscribe((res:any)=>{
+          // console.log(res);
+          if(res.result == 1)
+          {
+            if(res.data.message == "Login Successfully")
             {
-              if(res.data.message == "Login Successfully")
+              console.log(res.data.data)
+              this.service.setToken(res.data.data);
+              let tokenpayload = this.service.decodedToken();
+              this.service.setCurrentUser(tokenpayload);
+
+              this.toast.success({detail:"SUCCESS",summary:res.data.message,duration:3000});
+              if(tokenpayload.userType == 'admin')
               {
-                this.service.setToken(res.data.data);
-                let tokenpayload = this.service.decodedToken();
-                this.service.setCurrentUser(tokenpayload);
-
-                this.toast.success({detail:"SUCCESS",summary:res.data.message,duration:3000});
-                if(tokenpayload.userType == 'admin')
-                {
-                  this.router.navigate(['admin/dashboard']);
-                }
-                else
-                {
-                  this.router.navigate(['/home']);
-                }
-
+                this.router.navigate(['admin/dashboard']);
               }
               else
               {
-                // this.toastr.error(res.data.message);
-                this.toast.error({detail:"ERROR",summary:res.data.message,duration:3000});
+                this.router.navigate(['/home']);
               }
+
             }
             else
             {
-              // this.toastr.error(res.message);
-              this.toast.error({detail:"ERROR",summary:res.message,duration:3000});
+              // this.toastr.error(res.data.message);
+              this.toast.error({detail:"ERROR",summary:res.data.message,duration:3000});
             }
-          });
-          this.formValid = false;
-        }
-    }
-
-
+          }
+          else
+          {
+            // this.toastr.error(res.message);
+            this.toast.error({detail:"ERROR",summary:res.message,duration:3000});
+          }
+        });
+        this.formValid = false;
+      }
   }
-
+}

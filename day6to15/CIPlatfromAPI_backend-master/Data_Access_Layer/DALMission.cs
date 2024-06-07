@@ -255,7 +255,18 @@ namespace Data_Access_Layer
         }
         public List<MissionApplication> GetMissionApplicationList()
         {
-            return _cIDbContext.MissionApplication.Where(ma => !ma.IsDeleted).ToList();
+            //return _cIDbContext.MissionApplication.Where(ma => !ma.IsDeleted).ToList();
+            return _cIDbContext.MissionApplication.Where(ma => !ma.IsDeleted)
+                .Select(ma => new MissionApplication
+                {
+                    Id = ma.Id,
+                    MissionId = ma.MissionId,
+                    UserId = ma.UserId,
+                    AppliedDate = ma.AppliedDate,
+                    Status = ma.Status,
+                    MissionTitle = _cIDbContext.Missions.Where(m => m.Id == ma.MissionId).Select(m => m.MissionTitle).FirstOrDefault(),
+                    UserName = _cIDbContext.User.Where(u => u.Id == ma.UserId).Select(u => u.FirstName).FirstOrDefault()
+                }).ToList();
         }
         public string MissionApplicationApprove(int id)
         {
@@ -307,4 +318,3 @@ namespace Data_Access_Layer
 
     }
 }
-
